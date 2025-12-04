@@ -2,10 +2,10 @@ from ncclient import manager
 
 # Device connection details
 router = {
-    "host": "192.168.255.48",
+    "host": "<TARGET IP ADDRESS>"
     "port": 830,
-    "username": "cisco",
-    "password": "cisco",
+    "username": "<YOUR USERNAME>",
+    "password": "<YOUR PASSWORD>",
     "hostkey_verify": False  # We'll skip strict key checking for the lab
 }
 
